@@ -9,6 +9,7 @@ from .models import Family, Pet, FamilyMember
 
 class FamilyMemberInlineAdmin(StackedDynamicInlineAdmin):
     model = FamilyMember
+    fields = ["name", "date_of_birth", "content"]
 
 
 class PetInlineAdmin(TabularDynamicInlineAdmin):
