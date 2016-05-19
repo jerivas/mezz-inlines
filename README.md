@@ -1,6 +1,6 @@
 # Mezzanine inline admin demo
 
-Quick demo to showcase the issues described in stephenmcd/mezzanine#1575.
+Quick demo to showcase the issues described in [mezzanine#1575].
 
 ## Installation
 
@@ -18,3 +18,5 @@ python manage.py runserver
 1. Log into the admin (admin / default).
 1. Go to the Stacked > Familes admin page.
 1. Tabular inlines work fine, notice problems with stacked.
+
+[mezzanine#1575]: https://github.com/stephenmcd/mezzanine/issues/1575
