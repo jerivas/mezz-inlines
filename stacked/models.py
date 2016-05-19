@@ -22,7 +22,7 @@ class Family(models.Model):
 class FamilyMember(Orderable):
     family = models.ForeignKey(Family, related_name="members")
     name = models.CharField(max_length=50)
-    date_of_birth = models.DateField(blank=True)
+    date_of_birth = models.DateField(blank=True, null=True)
     bio = models.TextField(blank=True)
 
     def __str__(self):
