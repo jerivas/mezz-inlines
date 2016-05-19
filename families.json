@@ -1,0 +1,69 @@
+[
+{
+  "model": "stacked.family",
+  "pk": 1,
+  "fields": {
+    "title": "Johnson"
+  }
+},
+{
+  "model": "stacked.familymember",
+  "pk": 3,
+  "fields": {
+    "_order": 0,
+    "family": 1,
+    "name": "John Johnson",
+    "date_of_birth": "1990-05-18",
+    "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+  }
+},
+{
+  "model": "stacked.familymember",
+  "pk": 4,
+  "fields": {
+    "_order": 1,
+    "family": 1,
+    "name": "Sue Johnson",
+    "date_of_birth": "1992-03-14",
+    "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+  }
+},
+{
+  "model": "stacked.familymember",
+  "pk": 5,
+  "fields": {
+    "_order": 2,
+    "family": 1,
+    "name": "Timmy Johnson",
+    "date_of_birth": "2000-01-12",
+    "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+  }
+},
+{
+  "model": "stacked.pet",
+  "pk": 4,
+  "fields": {
+    "_order": 1,
+    "family": 1,
+    "name": "Fido"
+  }
+},
+{
+  "model": "stacked.pet",
+  "pk": 5,
+  "fields": {
+    "_order": 2,
+    "family": 1,
+    "name": "Sparky"
+  }
+},
+{
+  "model": "stacked.pet",
+  "pk": 6,
+  "fields": {
+    "_order": 0,
+    "family": 1,
+    "name": "Buttons"
+  }
+}
+]
